@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { Clock, MapPin, Smartphone, Tablet, Laptop, Wrench, Mail, Instagram, Facebook } from "lucide-react"
+import { Clock, MapPin, Smartphone, Tablet, Wrench, Mail, Instagram, Facebook } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
@@ -35,34 +35,6 @@ export default function Home() {
       Observação: Em alguns modelos, a troca do vidro traseiro pode afetar a impermeabilidade do aparelho. Consulte nossos técnicos para mais informações.`,
     },
     {
-      id: 3,
-      titulo: "Troca de vidro com LCD (iPhone)",
-      imagem: "/images/servico-vidro-lcd-iphone.jpg",
-      descricao: `Para iPhones, muitas vezes é necessário trocar o conjunto completo de vidro e LCD quando a tela está danificada. Realizamos este serviço com peças de alta qualidade.
-
-      Utilizamos peças originais ou compatíveis de alta qualidade, dependendo da preferência do cliente.
-      
-      Tempo: O serviço geralmente é realizado em 1-2 horas.
-      
-      Garantia: Oferecemos garantia de 90 dias para este serviço.
-      
-      Observação: Recomendamos a utilização de peças originais para manter a qualidade da imagem e a sensibilidade ao toque.`,
-    },
-    {
-      id: 4,
-      titulo: "Troca de cabo de MIC (Microfone)",
-      imagem: "/images/servico-cabo-mic.jpg",
-      descricao: `Quando o microfone do seu smartphone não está funcionando corretamente, pode ser necessário substituir o cabo ou o módulo do microfone.
-
-      Realizamos diagnósticos precisos para identificar o problema e efetuar o reparo adequado.
-      
-      Tempo: O serviço geralmente é realizado em 1-2 horas.
-      
-      Garantia: Oferecemos garantia de 90 dias para este serviço.
-      
-      Observação: Em alguns modelos, o microfone está integrado a outros componentes, o que pode afetar o custo e o tempo de reparo.`,
-    },
-    {
       id: 5,
       titulo: "Troca de bateria (iPhone)",
       imagem: "/images/servico-bateria-iphone.jpg",
@@ -75,34 +47,6 @@ export default function Home() {
       Garantia: Oferecemos garantia de 90 dias para este serviço.
       
       Observação: Após a troca da bateria, é normal que o dispositivo precise de alguns ciclos de carga para calibrar a nova bateria.`,
-    },
-    {
-      id: 6,
-      titulo: "Troca de vidro (Touch)",
-      imagem: "/images/servico-vidro-touch.jpg",
-      descricao: `Em alguns modelos, é possível trocar apenas o vidro da tela (touch), mantendo o LCD original. Este procedimento é mais econômico que a troca do conjunto completo.
-
-      Utilizamos equipamentos especiais para separar o vidro do LCD e instalar o novo vidro com precisão.
-      
-      Tempo: O serviço geralmente é realizado em 2-3 horas, devido à complexidade do processo.
-      
-      Garantia: Oferecemos garantia de 90 dias para este serviço.
-      
-      Observação: Este serviço não é recomendado para todos os modelos. Consulte nossos técnicos para verificar a viabilidade para o seu dispositivo.`,
-    },
-    {
-      id: 7,
-      titulo: "Troca de cabo de MIC (Android)",
-      imagem: "/images/servico-cabo-mic-android.jpg",
-      descricao: `Para dispositivos Android, o reparo do microfone pode envolver a substituição de cabos flexíveis ou módulos específicos, dependendo do modelo.
-
-      Realizamos diagnósticos precisos para identificar o problema e efetuar o reparo adequado.
-      
-      Tempo: O serviço geralmente é realizado em 1-2 horas.
-      
-      Garantia: Oferecemos garantia de 90 dias para este serviço.
-      
-      Observação: A complexidade do reparo pode variar significativamente entre diferentes modelos de Android.`,
     },
     {
       id: 8,
@@ -378,7 +322,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-black/60 backdrop-blur-sm border border-green-500/20 rounded-xl p-6 hover:border-green-500 transition-all hover:transform hover:scale-105">
                 <Smartphone className="text-green-500 h-12 w-12 mb-4" />
                 <h3 className="text-xl font-bold text-white mb-2">Reparo de Smartphones</h3>
@@ -389,12 +333,6 @@ export default function Home() {
                 <Tablet className="text-green-500 h-12 w-12 mb-4" />
                 <h3 className="text-xl font-bold text-white mb-2">Reparo de Tablets</h3>
                 <p className="text-gray-300">Soluções para problemas de hardware e software em tablets.</p>
-              </div>
-
-              <div className="bg-black/60 backdrop-blur-sm border border-green-500/20 rounded-xl p-6 hover:border-green-500 transition-all hover:transform hover:scale-105">
-                <Laptop className="text-green-500 h-12 w-12 mb-4" />
-                <h3 className="text-xl font-bold text-white mb-2">Reparo de Notebooks</h3>
-                <p className="text-gray-300">Manutenção e upgrade de componentes para notebooks.</p>
               </div>
 
               <div className="bg-black/60 backdrop-blur-sm border border-green-500/20 rounded-xl p-6 hover:border-green-500 transition-all hover:transform hover:scale-105">
